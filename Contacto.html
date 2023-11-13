@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <!-- Agrego el Favicon -->
+    <link rel="icon" href="img/favicon1.ico">
+    <meta charset="UTF-8">
+    <meta name="CAVP" content="width=device-width, initial-scale=2.0">
+    <title> C.A.V.P.</title>
+</head>
+
+<link rel="stylesheet" href="css\styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
+<body>
+    <table>
+        <th><Img src="IMG-20230124-WA0000.jpg" alt="logo original" width="120"> </th>
+        <th> <h1><b>   Circulo de Ajedrez de Villa del Parque   </b></h1></th>
+        <th> <Img src="Logo CAVP orignal 2023 10.jpg" alt="logo original" width="180"></th>
+        <th><h1><b>   Club de Ajedrez de Villa del Parque   </b></h1></th>
+        <th> <Img src="IMG-20230124-WA0001.jpg" alt="logo nuevo" width="120"> </th>
+    </table>
+    <br>
+    <hr>
+    <h5>
+        <nav>
+            <br>
+            <a href="index3.html">   Inicio   |</a>
+            <a href="Historia.html"> Historia |</a>
+<!-- A incluir en el futuro: #Autoridades" -->
+            <a href="Actividades.html"> Actividades |</a>
+<!--<A incluir en el futuro "#Multimedia"> Multimedia |</a> -->
+            <a href="Ubicacion.html"> Ubicacion |</a>
+            <a href="Contacto.html"> Contacto |</a>
+            <a href="Enlaces.html"> Enlaces </a>
+            <br>
+            <br>
+         </nav>
+
+        <main>
+            <br>
+
+        <h3 class="animate__animated animate__bounce"> FORMULARIO DE CONTACTO</h3>
+
+
+        <br>
+            <form action="mailto:cavpajedrez@gmailcom" method="post" enctype="text/plain">
+                <fieldset>
+                <legend>Datos Personales</legend>
+
+                <!-- Nombre -->
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre" size="30">
+
+                <!-- Apellido -->
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" id="apellido" size="30" maxlength="30" required>
+
+                <br>
+                <!-- DNI -->
+                <label for="dni">DNI: </label>
+                <input type="number" max="99999999">
+
+                <!-- Fecha de Nacimiento -->
+                <label for="fecnac">Fecha de Nacimiento: </label>
+                <input type="date" min="1905-01-01" max="2023-10-01">
+
+                <br>
+                <!-- Mail -->
+                <label for="mail">Mail: </label>
+                <input type="email">
+
+                <!-- Telefono -->
+                <label for="Telefono">Celular: (sin guiones y con codigo de area. Ej 1112345678) </label>
+                <input type="number"min=1100010001 max="999999999999">
+            </fieldset>
+
+            <br><br>
+
+            <!-- Comentarios -->
+            <label for="comentarios">Deje aquí sus comentarios: </label>
+            <br>
+            <textarea name="comentarios" id="comentarios" cols="150" rows="4"></textarea>
+
+            <br><br>
+
+            <!-- Botones -->
+            <input type="submit" value="Enviar Formulario">
+            <input type="reset" value="Borrar">
+
+        </form>
+      <br>
+      <br>
+        <hr>
+<hr>
+
+</h5>
+    <footer>
+        <h4> 2023 C.A.V.P. - Todos los derechos reservados.</h4>
+        <p> Club de Ajedrez de Villa del Parque
+            <br>
+            Cervantes 2481 - Ciudad Autonoma de Buenos Aires
+            <br>
+            Celular/Whatsapp: 11-1234-5678
+            <br>
+            cavpajedrez@gmail.com
+        </p>
+
+    </footer>
+</body>
+
+</html>
